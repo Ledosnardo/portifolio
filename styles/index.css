@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+@import './header.css';
+
+body{
+    background: black;
+    color: black;
+}
+
+.apresentation{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.apresentation div{
+    display: flex;
+    width: 35%;
+ 
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(20) alternate,
+      blink 800ms steps(13) infinite normal;
+    border-right: 5px solid white;
+  }
+  @keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 35%;
+    }
+  }
+  @keyframes blink {
+    from {
+      border-color: white;
+    }
+    to {
+      border-color: transparent;
+    }
+}
+
+.apresentation {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(45deg, #E8B4B8, #EED6D3, #A49393, #67595E);
+  background-size: 350% 350%;
+  animation: background_animate 6s ease infinite;
+}
+
+.apresentation h1 {
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.title__name{
+    font-family: 'Dancing Script', cursive;
+    height: 10vh;
+    color: red;
+    font-size: 5rem;
+    margin-left: 20px;
+}
+
+@keyframes background_animate {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+} 
