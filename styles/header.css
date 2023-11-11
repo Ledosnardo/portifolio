@@ -17,7 +17,7 @@
     margin-right: 60px;
 }
 
-.header__button{
+.header__link{
     font-family: 'Tilt Neon', sans-serif;
     cursor: pointer;
     font-size: 2.2rem;
@@ -28,6 +28,6 @@
     color: white;
 }
 
-.header__button:hover{
+.header__link:hover{
     border-radius: 5px;
 }
