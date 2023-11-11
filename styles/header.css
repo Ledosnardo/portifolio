@@ -7,10 +7,11 @@
     display: flex;
     justify-content: end;
     background: rgba(0, 0, 0, 0.04);
+    z-index: 1;
 }
 
 .header__container{
-    width: 40%;
+    width: 45%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -21,13 +22,23 @@
     font-family: 'Tilt Neon', sans-serif;
     cursor: pointer;
     font-size: 2.2rem;
-    border: none;
-    background: none;
     padding: 10px;
-    transition: .3s;
     color: white;
+    text-decoration: none;
+    position: relative;
 }
 
-.header__link:hover{
-    border-radius: 5px;
+.header__link::after{
+    content: "";
+    width: 0;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    transition: .2s ease-in-out;
+    bottom: 0;
+    left: 0;
+}
+
+.header__link:hover::after{
+    width: 100%;
 }
