@@ -3,7 +3,7 @@
 
 @import './header.css';
 @import './apresentation.css';
-@import './portifolio.css';
+@import './portifolio/portifolio.css';
 
 body{
     background: black;
@@ -19,6 +19,6 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: white;    
+  background: white;    
   border-radius: 90px;       
 }

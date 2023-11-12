@@ -9,10 +9,9 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__container">
+        <div class="header__nav">
             <a href="#apresentation" class="header__link">Apresentation</a>
             <a href="#portifolio" class="header__link">Portífolio</a>
-            <a href="#skills" class="header__link">Skills</a>
         </div>
     </header>
     <section class="apresentation" id="apresentation">
@@ -25,6 +24,27 @@
                 <br/> I'm a <b>Junior Front-End Developer</b>, and I'm here to show off some of my skills. 
                 <br/> <b>I hope you enjoy it.</b>
             </p>
+            
+        <div class="apresentation__icons">
+            <div class="apresentation__icons-links">
+                <a href="https://www.linkedin.com/in/leonardo-atanasio-4a7364219/" target="_blank" class="apresentation__icon">
+                    <img src="./images/icons/icon-linkedin.png" alt="">
+                </a>
+                <a href="https://github.com/Ledosnardo" target="_blank" class="apresentation__icon">
+                    <img src="./images/icons/icon-github.png" alt="">
+                </a>
+            </div>
+            <div class="apresentation__icons-buttons">
+                <button  class="apresentation__icon" id="button-email">
+                    <img src="./images/icons/icon-email.png" alt="" id="image-email">
+                </button>
+                <button  class="apresentation__icon">
+                    <a href="./Curriculum.pdf" download>
+                        <img src="./images/icons/icon-curriculum.png" alt="">
+                    </a>
+                </button>
+            </div>
+        </div>
         </div>
         <div id="perfil-image" class="flip">
             <img src="./images/PerfilDraw.png" alt="" id="perfil-draw" class="perfil">
@@ -32,6 +52,54 @@
         </div>
     </section>
     <section class="portifolio" id="portifolio">
+        <div class="projects">
+            <div class="project">
+                <a href="https://criticos-quase-de-vdd.vercel.app/" target="_blank" class="project__link">
+                    <img src="./images/image-site-criticos.PNG" alt="" class="project__image">
+                </a>
+                <div class="project__icons">
+                    <img src="./images/icons/icone-react.png" alt="" class="project__icon">
+                    <img src="./images/icons/icon-html.png" alt="" class="project__icon">
+                    <img src="./images/icons/icon-type-script.png" alt="" class="project__icon">
+                    <img src="./images/icons/icon-css-module.png" alt="" class="project__icon">
+                    <img src="./images/icons/icon-date-fns.png" alt="" class="project__icon">
+                </div>
+            </div>
+            <div class="project">
+                <a href="https://foa-atividade.vercel.app/" target="_blank" class="project__link">
+                    <img src="./images/image-FOA-atividade.PNG" alt="" class="project__image">
+                </a>
+                <div class="project__icons">
+                    <img src="./images/icons/icon-html.png" alt="" class="project__icon">
+                    <img src="./images/icons/icon-css.png" alt="" class="project__icon">
+                    <img src="./images/icons/icon-java-script.png" alt="" class="project__icon">
+                </div>
+            </div>
+            <div class="project">
+                <a href="https://programmer-profile-seven.vercel.app/" target="_blank" class="project__link">
+                    <img src="./images/image-programmer-profile.PNG" alt="" class="project__image">
+                </a>
+                <div class="project__icons">
+                    <img src="./images/icons/icone-react.png" alt="" class="project__icon">
+                    <img src="./images/icons/icon-html.png" alt="" class="project__icon">
+                    <img src="./images/icons/icon-java-script.png" alt="" class="project__icon">
+                    <img src="./images/icons/icon-css-module.png" alt="" class="project__icon">
+                </div>
+            </div>
+            <div class="project">
+                <a href="https://curriculum-gammer.vercel.app/" target="_blank" class="project__link">
+                    <img src="./images/image-curriculum-gamer.PNG" alt="" class="project__image">
+                </a>
+                <div class="project__icons">
+                    <img src="./images/icons/icone-react.png" alt="" class="project__icon">
+                    <img src="./images/icons/icon-html.png" alt="" class="project__icon">
+                    <img src="./images/icons/icon-type-script.png" alt="" class="project__icon">
+                    <img src="./images/icons/icon-styled-components.png" alt="" class="project__icon">
+                    <img src="./images/icons/icon-recoil.png" alt="" class="project__icon">
+                </div>
+            </div>
+        </div>
+
         <div class="circles">
             <div>
                 <div class="circle-one"></div>
@@ -45,4 +113,6 @@
     </section>
 </body>
     <script src="./js/index.js"></script>
+    <script src="./js/animationBackground.js"></script>
+    <script src="./js/buttonIcon.js"></script>
 </html>

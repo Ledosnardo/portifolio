@@ -16,6 +16,46 @@
     height: 13vh;
 }
 
+.apresentation__icons{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 10px;
+  width: 80%;
+}
+
+.apresentation__icons-links{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 13%;
+  margin-right: 5px;
+}
+
+.apresentation__icons-buttons{
+  width: 19%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.apresentation__icon{
+  width: 26%;
+  margin: 0 2px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.apresentation__icon img{
+  width: 100%;
+}
+
+.apresentation__icon img:hover{
+  box-shadow: 0 0 10px 2px white;
+  background: white;
+}
+
 .apresentation__name{
     display: flex;
     justify-content: start;
