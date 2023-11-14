@@ -1,0 +1,141 @@
+.apresentation__text{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 13vh;
+}
+
+.apresentation__name{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: 13vh;
+}
+
+.apresentation__name h1{
+    font-family: 'Tilt Neon', sans-serif;
+    width: 88%;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: end;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 3s steps(20) alternate,
+      blink 800ms steps(13) infinite normal;
+    border-right: 5px solid white;
+}
+
+.title__name{
+    font-family: 'Dancing Script', cursive;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+    font-size: 5rem;
+    margin-left: 20px;
+}
+
+.apresentation__content{
+    width: 70%;
+    margin: 10px 0 0 10px;
+    font-size: 1.4rem;
+}
+
+.apresentation__content b{
+    font-size: 1.5rem;
+    color: transparent;
+    color: black;
+}
+
+@keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 90%;
+    }
+}
+  @keyframes blink {
+    from {
+      border-color: white;
+    }
+    to {
+      border-color: transparent;
+    }
+}
+
+@media (max-width: 1440px){
+    .apresentation__name{
+        width: 93%;
+    }
+}
+
+@media (max-width: 1024px){
+    .apresentation__name h1{
+        font-size: 3rem;
+        width: 97%;
+    }
+
+    .title__name{
+        font-size: 4rem;
+    }
+
+    .apresentation__content{
+        font-size: 1rem;
+    }
+
+    .apresentation__content b{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px){
+    .apresentation__name h1{
+        font-size: 2rem;
+        width: 92%;
+    }
+
+    .title__name{
+        font-size: 2.8rem;
+    }
+
+    .apresentation__content{
+        font-size: .9rem;
+    }
+
+    .apresentation__content b{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 425px){
+    .apresentation__text{
+        width: 80%;
+        height: 60%;
+        justify-content: center;
+        padding-top: 40px;
+    }
+
+    .apresentation__name{
+        height: 8vh;
+    }
+
+    .apresentation__name h1{
+        font-size: 1.8rem;
+        width: 100%;
+    }
+
+    .title__name{
+        font-size: 2.2rem;
+    }
+
+    .apresentation__content{
+        font-size: .8rem;
+        width: 80%;
+    }
+
+    .apresentation__content b{
+        font-size: .9rem;
+    }
+}
+  

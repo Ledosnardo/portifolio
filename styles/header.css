@@ -43,3 +43,15 @@
 .header__link:hover::after{
     width: 100%;
 }
+
+@media (max-width: 1024px){
+    .header__link{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 425px){
+    .header__link{
+        font-size: 1.4rem;
+    }
+}

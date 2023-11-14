@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 @import './header.css';
-@import './apresentation.css';
+@import './apresentation/apresentation.css';
 @import './portifolio/portifolio.css';
 
 body{

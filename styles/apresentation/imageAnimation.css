@@ -1,0 +1,43 @@
+#perfil-image{
+    width: 26%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    transition: all .5s;
+}
+  
+.perfil{
+    width:100%;
+    border-radius: 180px;
+    box-shadow: 0 0 10px 3px white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+#perfil-draw{
+    transform: rotateY(180deg);
+}
+  
+#perfil-photo{
+    backface-visibility: hidden;
+}
+  
+.flip{
+    transform: rotateY(180deg);
+}
+
+@media (max-width: 768px){
+  #perfil-image{
+    width: 30%;
+  }
+}
+
+@media (max-width: 425px){
+  #perfil-image{
+    width: 50%;
+  }
+}

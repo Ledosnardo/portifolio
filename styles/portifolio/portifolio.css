@@ -54,3 +54,48 @@
   border-radius: 180px;
   box-shadow: 0 0 10px 2px black;
 }
+
+@media (max-width: 1024px){
+  .project{
+    width: 32%;
+  }
+
+  .project__icon{
+    width: 28px;
+  }
+}
+
+@media (max-width: 768px){
+  .project{
+    width: 45%;
+  }
+
+  .project__icon{
+    width: 28px;
+  }
+}
+
+@media (max-width: 425px){
+
+  .portifolio{
+    height: 220vh;
+  }
+  .project{
+    width: 90%;
+    display: flex;
+    margin-bottom: 40px;
+  }
+
+  .project__image{
+    width: 100%;
+  }
+
+  .project__icons{
+    flex-direction: column;
+    width: 10%;
+  }
+  .project__icon{
+    width: 28px;
+  }
+
+}
