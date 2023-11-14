@@ -97,5 +97,17 @@
   .project__icon{
     width: 28px;
   }
+}
 
+@media (max-width: 375px){
+  .portifolio{
+    height: 200vh;
+  }
+  .project{
+    height: 30vh;
+  }
+
+  .project__icon{
+    width: 23px;
+  }
 }

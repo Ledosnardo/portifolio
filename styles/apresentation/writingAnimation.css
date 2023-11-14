@@ -14,7 +14,7 @@
 
 .apresentation__name h1{
     font-family: 'Tilt Neon', sans-serif;
-    width: 88%;
+    width: 93%;
     font-size: 4rem;
     letter-spacing: 1px;
     display: flex;
@@ -136,6 +136,34 @@
 
     .apresentation__content b{
         font-size: .9rem;
+    }
+}
+
+@media (max-width: 375px){
+    .apresentation__name h1{
+        font-size: 1.3rem;
+        width: 86%;
+    }
+
+    .apresentation__name{
+        height: 7vh;
+        text-align: center;
+    }
+
+    
+    .apresentation__text{
+        width: 90%;
+    }
+}
+
+@media (max-width: 320px){
+    .apresentation__name h1{
+        font-size: 1.3rem;
+        width: 100%;
+    }
+
+    .title__name{
+        font-size: 2rem;
     }
 }
   

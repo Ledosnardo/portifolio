@@ -98,3 +98,13 @@
     width: 100%;
   }
 }
+
+@media (max-width: 320px){
+  .apresentation__icons-links{
+    width: 18%;
+  }
+
+  .apresentation__icons-buttons{
+    width: 25%;
+  }
+}

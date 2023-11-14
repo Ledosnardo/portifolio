@@ -55,3 +55,17 @@
         font-size: 1.4rem;
     }
 }
+
+@media (max-width: 320px){
+    .header{
+        justify-content: center;
+    }
+    .header__nav{
+        width: 100%;
+        justify-content: center;
+        margin-right: 0px;
+    }
+    .header__link{
+        font-size: 1.2rem;
+    }
+}
