@@ -100,16 +100,16 @@
 }
 
 @media (max-width: 390px){
+  .portifolio{
+    height: 200vh;
+  }
   .project{
     height: 18%;
+    margin-bottom: 20px;
   }
 }
 
 @media (max-width: 375px){
-  .portifolio{
-    height: 200vh;
-  }
-
   .project__icon{
     width: 23px;
   }
