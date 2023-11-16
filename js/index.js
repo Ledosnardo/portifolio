@@ -1,7 +1,9 @@
 const perfil = document.querySelector("#perfil-image");
+const apresentation = document.querySelector("#apresentation");
 
 perfil.addEventListener("click", e => {
     perfil.classList.toggle("flip");
+    apresentation.classList.toggle("apresentation2")
 })
 
 
