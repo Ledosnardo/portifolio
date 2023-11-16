@@ -42,8 +42,8 @@
   }
 }
 
-@media (max-width: 375px){
+@media (max-width: 390px){
   #perfil-image{
-    width: 60%;
+    width: 70%;
   }
 }
