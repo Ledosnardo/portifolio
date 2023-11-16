@@ -99,12 +99,15 @@
   }
 }
 
+@media (max-width: 390px){
+  .project{
+    height: 20%;
+  }
+}
+
 @media (max-width: 375px){
   .portifolio{
     height: 200vh;
-  }
-  .project{
-    height: 20%;
   }
 
   .project__icon{
