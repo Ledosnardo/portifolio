@@ -1,5 +1,5 @@
 #perfil-image{
-    width: 26%;
+    width: 28vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,15 +30,27 @@
     transform: rotateY(180deg);
 }
 
-@media (max-width: 768px){
+@media (max-width: 1024px){
   #perfil-image{
-    width: 30%;
+    width: 34vw;
   }
 }
 
-@media (max-width: 425px){
+@media (max-width: 768px){
   #perfil-image{
-    width: 50%;
+    width: 40%;
+  }
+}
+
+@media (max-width: 612px){
+  #perfil-image{
+    width: 45%;
+  }
+}
+
+@media (max-width: 500px){
+  #perfil-image{
+    width: 60%;
   }
 }
 

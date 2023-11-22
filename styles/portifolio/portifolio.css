@@ -1,116 +1,137 @@
-@import './animationBackground.css';
-
-.portifolio{
-    width: 100%;
-    height: 150vh;
-    display: flex;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-    background: linear-gradient(0deg, rgba(11,1,19,1) 0%, rgba(54,0,98,1) 24%, rgba(89,5,159,1) 51%, rgba(116,5,210,1) 100%);
-  }
-
-.projects{
-  z-index: 1;
-  width: 100%;
-  height: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  position: absolute;
-}
-
-.project{
-  width: 30%;
-  height: 40vh;
-}
-
-.project__link{
-  width: 100%;
-}
-
-.project__image{
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  box-shadow: 0 0 10px 4px black;
-  transition: ease .2s;
-}
-
-.project__image:hover{
-  opacity: .5;
-}
-
-.project__icons{
-  width: 100%;
-  display: flex;
-  align-items: top;
-}
-
-.project__icon{
-  width: 35px;
-  margin: 5px 10px;
-  border-radius: 180px;
-  box-shadow: 0 0 10px 2px black;
-}
-
-@media (max-width: 1024px){
-  .project{
-    width: 32%;
-  }
-
-  .project__icon{
-    width: 28px;
-  }
-}
-
-@media (max-width: 768px){
-  .project{
-    width: 45%;
-  }
-
-  .project__icon{
-    width: 28px;
-  }
-}
-
-@media (max-width: 425px){
+  @import './animationBackground.css';
 
   .portifolio{
-    height: 220vh;
-  }
-  .project{
+      width: 100%;
+      height: 150vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(0deg, rgba(11,1,19,1) 0%, rgba(54,0,98,1) 24%, rgba(89,5,159,1) 51%, rgba(116,5,210,1) 100%);
+    }
+
+  .projects{
+    z-index: 1;
     width: 90%;
+    height: 90%;
     display: flex;
-    margin-bottom: 40px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: absolute;
+  }
+
+  .project{
+    width: 39vw;
+    height: 40%;
+  }
+
+  .project__link{
+    width: 100%;
   }
 
   .project__image{
     width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 4px black;
+    transition: ease .2s;
+  }
+
+  .project__image:hover{
+    opacity: .5;
   }
 
   .project__icons{
-    flex-direction: column;
-    width: 10%;
+    width: 100%;
+    display: flex;
+    align-items: top;
   }
-  .project__icon{
-    width: 28px;
-  }
-}
 
-@media (max-width: 390px){
-  .portifolio{
-    height: 200vh;
-  }
-  .project{
-    height: 18%;
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 375px){
   .project__icon{
-    width: 23px;
+    width: 35px;
+    margin: 5px 10px;
+    border-radius: 180px;
+    box-shadow: 0 0 10px 2px black;
   }
-}
+
+  @media (max-width: 1440px){
+    .portifolio{
+      height: 120vh;
+    }
+  }
+  @media (max-width: 1024px){
+    .portifolio{
+      height: 100vh;
+    }
+  }
+
+  @media (max-width: 768px){
+    .project{
+      width: 45%;
+    }
+
+    .project__icon{
+      width: 28px;
+    }
+  }
+
+  @media (max-width: 612px){
+    .portifolio{
+      height: 200vh;
+    }
+    .project{
+      width: 90%;
+      display: flex;
+      height: 40vh;
+    }
+
+    .project__image{
+      width: 100%;
+    }
+
+    .project__icons{
+      flex-direction: column;
+      width: 10%;
+    }
+    .project__icon{
+      width: 28px;
+    }
+  }
+
+  @media (max-width: 500px){
+    .project{
+      width: 90%;
+      display: flex;
+      margin-bottom: 40px;
+    }
+
+    .project__image{
+      width: 100%;
+    }
+
+    .project__icons{
+      flex-direction: column;
+      width: 10%;
+    }
+    .project__icon{
+      width: 28px;
+    }
+  }
+
+  @media (max-width: 390px){
+    .portifolio{
+      height: 200vh;
+    }
+    .project{
+      height: 18%;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 375px){
+    .project__icon{
+      width: 23px;
+    }
+  }
